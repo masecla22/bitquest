@@ -33,7 +33,7 @@ public class BlockEvents implements Listener {
     } else if (event.getCause().equals(IgniteCause.SPREAD)) {
       event.setCancelled(true);
     }
-  }
+  } 
 
   @EventHandler
   void onBlockBurn(BlockBurnEvent event) {
